@@ -8,7 +8,7 @@ from functions import *
 import sys
 
 if len(sys.argv) != 3:
-	print("Usage: python evaluate.py [stock] [model]")
+	print("Usage: python test.py [stock] [model]")
 	exit()
 
 stock_name, model_name = sys.argv[1], sys.argv[2]
