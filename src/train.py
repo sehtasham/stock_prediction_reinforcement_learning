@@ -2,6 +2,8 @@ from agent import Agent
 from functions import *
 
 def trainAgent(stock_name, window_size, episode_count):
+	'''Code Taken from the website 
+https://www.analyticsvidhya.com/blog/2020/10/reinforcement-learning-stock-price-prediction/'''
 	agent = Agent(window_size)
 	data = getStockDataVec(stock_name)
 	l = len(data) - 1

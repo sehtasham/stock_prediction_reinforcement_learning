@@ -1,6 +1,7 @@
 import numpy as np
 import math
-
+'''Code Taken from the website 
+https://www.analyticsvidhya.com/blog/2020/10/reinforcement-learning-stock-price-prediction/'''
 
 def formatPrice(n):
 	return ("-$" if n < 0 else "$") + "{0:.2f}".format(abs(n))

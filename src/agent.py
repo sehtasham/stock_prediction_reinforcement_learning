@@ -11,6 +11,8 @@ import random
 import parameters
 
 class Agent:
+    '''Code Taken from the website 
+https://www.analyticsvidhya.com/blog/2020/10/reinforcement-learning-stock-price-prediction/'''
     def __init__(self, state_size, is_eval=False, model_name=""):
         self.state_size = state_size
         # 3 Actions: Sit, Buy or Sell

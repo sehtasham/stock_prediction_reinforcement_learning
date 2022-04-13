@@ -1,3 +1,5 @@
+'''Code Taken from the website 
+https://www.analyticsvidhya.com/blog/2020/10/reinforcement-learning-stock-price-prediction/'''
 import keras
 from keras.models import load_model
 
